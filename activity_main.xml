@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <ImageView
+        android:id="@+id/photo_image_viewback"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/images" />
+    <ImageView
+        android:id="@+id/photo_image_view"
+        android:src="@drawable/logo1"
+        android:layout_width="1800dp"
+        android:layout_height="130dp"/>
+
+    <ImageView
+        android:id="@+id/photo_image_view2"
+        android:layout_width="18000dp"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="88dp"
+        android:src="@drawable/logo2" />
+
+    <TextView
+        android:id="@+id/textwa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/photo_image_view2"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"
+        android:text="Our Services"
+        android:textColor="#EC407A"
+        android:textSize="36sp" />
+
+
+    <ImageView
+        android:id="@+id/photo_image_viewservice"
+        android:layout_width="1800dp"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/photo_image_view2"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/service" />
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/textwa"
+        android:layout_alignRight="@+id/textwa"
+        android:layout_below="@+id/photo_image_viewservice"
+        android:text="पधारो म्हारे देस"
+        android:textSize="30sp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#EC407A"
+        android:textStyle="bold" />
+
+</RelativeLayout>
