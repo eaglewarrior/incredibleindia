@@ -1,5 +1,5 @@
 # incredibleindia
-Udacity andriod schlorship project for challenge landing page
+Udacity andriod scholarship project for challenge landing page
 
 
 
